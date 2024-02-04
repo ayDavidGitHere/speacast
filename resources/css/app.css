@@ -1,0 +1,73 @@
+/* Add this CSS to your stylesheets */
+
+body {
+    --col-primary: #ffffff;
+    --col-secondary: #121212;
+    --col-accent: crimson;
+    --col-accent-transparent: #dc1e3faa;
+    --col-primary-v2: #e4e4e4;
+    --col-primary-v3: #f4f4f4;
+    --col-primary-transparent: #ffffffaa;
+    --col-secondary-transparent: #121212aa;
+
+ 
+    --col-primary: #111111;
+    --col-secondary: #ffffff;
+    --col-accent: crimson;
+    --col-accent-transparent: #dc1e3faa;
+    --col-primary-v2: #2b2b2b;
+    --col-primary-v3: #1b1b1b;
+    --col-primary-transparent: #111111aa;
+    --col-secondary-transparent: #ffffffaa;
+ 
+
+
+    font-family: 'Work Sans', sans-serif;
+    background-color: var(--col-primary);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: var(--col-secondary);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Podcast List Styles */
+
+.section-container {
+    padding: 20px;
+    background-color: var(--col-primary-v3);
+    color: var(--col-secondary);
+    border-radius: 20px;
+    width: calc( 90% - 10px );
+    margin: 20px auto;
+}
+
+
+.see-more-button {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    background-color: var(--col-accent);
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px; 
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-size: .7em;
+    
+    cursor: pointer;
+}
+
+.see-more-button:hover { 
+    border: 1px solid var(--col-secondary);
+}
+
+.page-link {
+    text-decoration: none !important;
+    color: inherit;
+}
